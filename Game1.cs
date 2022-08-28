@@ -81,7 +81,10 @@ namespace RPG_Game
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            foreach(Projectile proj in Projectile.projectiles)
+            {
+                proj.Update(gameTime);
+            }
             player.Update(gameTime);
             base.Update(gameTime);
         }
@@ -93,6 +96,11 @@ namespace RPG_Game
             player.anim.Draw(_spriteBatch, new Vector2(player.Position.X - 48, player.Position.Y-48));
 
             _spriteBatch.Begin();
+
+            foreach (Projectile proj in Projectile.projectiles)
+            {
+                _spriteBatch.Draw(bullet_Sprite, new Vector2(proj.Position.X - proj.Radius, proj.Position.Y- proj.Radius), Color.White);
+            }
 
             _spriteBatch.End();
             // TODO: Add your drawing code here
