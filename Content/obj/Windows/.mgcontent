@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Enemies/eyeEnemy.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Enemies/snakeEnemy.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Misc/bullet.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Misc/heart.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Obstacle/bush.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Obstacle/tree.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Player/player.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Player/playerDown.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Player/playerLeft.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Player/playerRight.png</File>
+    <File>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Player/playerUp.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
