@@ -51,32 +51,33 @@ namespace RPG_Game
         {
             KeyboardState ks = Keyboard.GetState();
             float dt = (float)gt.ElapsedGameTime.TotalSeconds;
-            isMooving = false;
+            
             
             anim = animations[(int)direction];
-            
-            if (isMooving)
-            {
-                anim.Update(gt);
-            }
-            
 
-            if (ks.IsKeyDown(Keys.Right))
+            if (isMooving)
+                anim.Update(gt);
+            else
+                anim.setFrame(1); 
+            
+            isMooving = false;
+
+            if (ks.IsKeyDown(Keys.Right) | ks.IsKeyDown(Keys.D))
             {
                 direction = Dir.Right;
                 isMooving = true;
             }
-            if (ks.IsKeyDown(Keys.Left))
+            if (ks.IsKeyDown(Keys.Left) | ks.IsKeyDown(Keys.A))
             {
                 direction = Dir.Left;
                 isMooving = true;
             }
-            if (ks.IsKeyDown(Keys.Up))
+            if (ks.IsKeyDown(Keys.Up) | ks.IsKeyDown(Keys.W))
             {
                 direction = Dir.Up;
                 isMooving = true;
             }
-            if (ks.IsKeyDown(Keys.Down))
+            if (ks.IsKeyDown(Keys.Down) | ks.IsKeyDown(Keys.S))
             {
                 direction = Dir.Down;
                 isMooving = true;

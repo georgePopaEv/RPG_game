@@ -60,6 +60,11 @@ namespace RPG_Game
             spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, Color.White);
             spriteBatch.End();
         }
+
+        public void setFrame(int newFrame)
+        {
+            currentFrame = newFrame;
+        }
     }
 }
 

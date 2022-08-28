@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/Player/playerUp.png</SourceFile>
-  <SourceTime>2017-12-03T15:59:18+02:00</SourceTime>
+  <SourceTime>2022-08-28T16:53:40.2712335+03:00</SourceTime>
   <DestFile>E:/Proiecte Microsoft Visual Studio Code/Rpg_Game/RPG_Game/Content/bin/Windows/Content/Player/playerUp.xnb</DestFile>
-  <DestTime>2022-08-20T16:30:38.0651203+03:00</DestTime>
+  <DestTime>2022-08-28T16:53:43.205969+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T19:17:54+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

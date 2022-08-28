@@ -90,7 +90,7 @@ namespace RPG_Game
         {
             GraphicsDevice.Clear(Color.ForestGreen);
 
-            player.anim.Draw(_spriteBatch, player.Position);
+            player.anim.Draw(_spriteBatch, new Vector2(player.Position.X - 48, player.Position.Y-48));
 
             _spriteBatch.Begin();
 
